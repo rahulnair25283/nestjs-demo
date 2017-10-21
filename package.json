@@ -1,5 +1,5 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "nestjs-demo",
   "version": "1.0.0",
   "description": "Nest TypeScript starter repository",
   "license": "MIT",
@@ -15,14 +15,19 @@
     "@nestjs/microservices": "^4.0.0",
     "@nestjs/testing": "^4.0.0",
     "@nestjs/websockets": "^4.0.0",
+    "body-parser": "^1.18.2",
     "redis": "^2.7.1",
     "reflect-metadata": "^0.1.10",
     "rxjs": "^5.4.0",
     "typescript": "^2.5.2"
   },
   "devDependencies": {
+    "@types/body-parser": "^1.16.5",
     "@types/node": "^8.0.28",
     "nodemon": "^1.12.1",
     "ts-node": "^3.3.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/nestjs/nest-typescript-starter.git",
+  "author": "Rahul Nair <rahulnair25283@gmail.com>"
 }
